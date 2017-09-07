@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1>Welcome</h1>
+</head>
+<body background="waterfall-2106002_960_720.jpg" bgcolor="black" >
+<div id="wrapper">
+    <h1><font size="9" face="times new roman" color="#adff2f"><center>Welcome</center></font></h1>
+</div>
+<br><br><br><br><br>
+<center>
+    <div id="wrap">
+        <tr>
+            <a href="go%20to%20login.html"><button >Go To Login</button></a>
+        <a href="reg.html"><button>register</button></a>
+
+    </div>
+</center>
+
+
+<style>
+    #wrapper
+    {
+        width:1325px;
+        height:30px;
+        background-color:lightslategrey;
+    }
+
+    #wrap{
+        width: 450px;
+        height: 200px;
+        background-color:lightslategrey;
+    }
+
+</style>
+
+</body>
+</html>

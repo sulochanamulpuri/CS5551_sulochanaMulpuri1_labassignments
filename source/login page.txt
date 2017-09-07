@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1>loginpage</h1>
+</head>
+<body background="waterfall-2106002_960_720.jpg" bgcolor="black" >
+<div id="wrapper">
+    <h1><font size="9" face="times new roman" color="darkolivegreen"><center>givedetails</center></font></h1>
+</div>
+<br><br><br><br><br>
+<center>
+    <div id="wrap">
+        <form name="login">
+            Username<input type="text" name="userid"/>
+            <br>
+            </p>
+            Password<input type="password" name="pswrd"/>
+            <br>
+            </p>
+            <a href="maps.html"><button>Login</button></a>
+            </p>
+           <a href="login.html"><button>cancel</button></a>
+            </p>
+        </form>
+        <script language="javascript">
+            function check(form)/*function to check userid & password*/
+            {
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "abcd" && form.pswrd.value == "abcd")
+                {
+                    window.open('target.html')/*opens the target page while Id & password matches*/
+                }
+                else
+                {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+        </body>
+        </html>
+    </div>
+</center>
